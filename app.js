@@ -5,13 +5,17 @@ fetch(url)
   .then(data => {
       //console.log(data);  
       const metaData = Object.values(data);
-      console.log(metaData);
-      const info = metaData[0];
-        console.log(info);
-      const interval = info.Information;
-        console.log(interval);
-      
-    //   document.getElementById('info').innerHTML = info;
-    
+      //console.log(metaData);
+      const fullInfo = metaData [0];
+      //console.log(fullInfo);
+      const info = Object.values(fullInfo);
+      //console.log(info);
+      const information = info[0];
+      const symbol = info[1];  
+      const lastRefreshed = info[2];
+      const interval = info[3];
+      const outputSize = info[4];
+      const timeZone = info[5];
+         
   }) 
   
