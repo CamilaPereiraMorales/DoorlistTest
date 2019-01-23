@@ -16,6 +16,12 @@ fetch(url)
       const interval = info[3];
       const outputSize = info[4];
       const timeZone = info[5];
-         
+    
+      document.getElementById('info1').innerHTML = information;
+      document.getElementById('info2').innerHTML = symbol;
+      document.getElementById('info3').innerHTML = lastRefreshed;
+      document.getElementById('info4').innerHTML = interval;
+      document.getElementById('info5').innerHTML = outputSize;
+      document.getElementById('info6').innerHTML = timeZone;
   }) 
   

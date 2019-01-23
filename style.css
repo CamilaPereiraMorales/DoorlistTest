@@ -1,4 +1,38 @@
-#infoContainer{
+#infoContainer1{
     background-color: aqua;
-    
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+    margin-top: 4%;
+}
+#infoContainer2{
+    background-color:green;
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+}
+#infoContainer3{
+    background-color:peru;
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+}
+#infoContainer4{
+    background-color:gray;
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+    margin-top: 4%;
+}
+#infoContainer5{
+    background-color:palevioletred;
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+}
+#infoContainer6{
+    background-color:orangered;
+    display: inline-block;
+    width: 33%;
+    height: 50%;
 }
